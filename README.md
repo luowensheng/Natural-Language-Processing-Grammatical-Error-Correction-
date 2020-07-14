@@ -12,6 +12,9 @@
 
 </center>
 
+<br>
+<br>
+
 # Introduction
 Several datasets are used: 
 1. Linggle ngram frequency
@@ -118,4 +121,8 @@ Please refer to Peter Norvig's [website](https://norvig.com/spell-correct.html).
 
 # Questions
 Submit your questions and bug reports [here](https://github.com/luowensheng/Natural-Language-Processing-Grammatical-Error-Correction-/issues).
+
+<div class="text-align-center">
+Centered Text
+</div>
 
