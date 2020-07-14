@@ -3,6 +3,7 @@
 
 <!-- Headings -->
 <p align="center"> 
+  
 # Natural Language Processing: Grammatical Error Correction Implementation
 </p>
 
