@@ -1,7 +1,3 @@
-<html>
-<center>
-
-<!-- Headings -->
 # Natural Language Processing: Grammatical Error Correction Implementation
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
@@ -12,6 +8,7 @@
 
 </center>
 
+<br>
 <br>
 <br>
 
@@ -121,8 +118,3 @@ Please refer to Peter Norvig's [website](https://norvig.com/spell-correct.html).
 
 # Questions
 Submit your questions and bug reports [here](https://github.com/luowensheng/Natural-Language-Processing-Grammatical-Error-Correction-/issues).
-
-<div class="text-align-center">
-Centered Text
-</div>
-
