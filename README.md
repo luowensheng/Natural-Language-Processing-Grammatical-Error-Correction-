@@ -2,9 +2,9 @@
 <center>
 
 <!-- Headings -->
+<p align="center"> 
 # Natural Language Processing: Grammatical Error Correction Implementation
-
-</center>
+</p>
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/luowensheng/Natural-Language-Processing-Grammatical-Error-Correction-/pulse)
@@ -12,7 +12,7 @@
 
 [Introduction](#Introduction) • [Tasks](#Tasks) • [Credits](#Credits) • [Questions](#Questions)
 
-
+</center>
 
 # Introduction
 Several datasets are used: 
