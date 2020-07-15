@@ -17,7 +17,7 @@ Several datasets are used:
 We build an error corrector model based on the spell check code by **Peter Norvig**.
 
 # Method
-Given a word input, generate many different words by applying some modeifications to the word, then check to see which ones are known words, then further used these known genrated words to generate new words using the same method, finally we get a set of  candidate words and we pick the one which is the most likely given the context.
+Given a word input, generate many different words by applying some modeifications (Deletion, Insertion, Replacement) to the word, then check to see which ones are known words, then further used these known genrated words to generate new words using the same method, finally we get a set of  candidate words and we pick the one which is the most likely given the context.
 
 I have used the same concept for my adaptation to correct strings of 2 to 5 words.
 
