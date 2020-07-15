@@ -1,21 +1,19 @@
-# Natural Language Processing: Grammatical Error Correction Implementation
-<h1 align="center">Python Header
+<h1 align="center">Natural Language Processing: Grammatical Error Correction Implementation
 </h1>
 <p align="center">
     <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"></a>
-    <a href="https://github.com/luowensheng/DIP-Image-Restoration-Homomorphic-filtering-/pulse"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
+    <a href="https://github.com/luowensheng/Natural-Language-Processing-Grammatical-Error-Correction-/pulse"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
     <a href="https://github.com/luowensheng"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
 </p>
 
+<p align="center">
+  <a href="#Introduction">Introduction</a> •
+  <a href="#Tasks">Issues</a> •
+  <a href="#Credits">Credits</a> •
+  <a href="#Questions">Questions</a>
+</p>
 
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/luowensheng/Natural-Language-Processing-Grammatical-Error-Correction-/pulse)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/luowensheng)
-
-[Introduction](#Introduction) • [Tasks](#Tasks) • [Credits](#Credits) • [Questions](#Questions)
-
-</center>
-
+<br>
 
 # Introduction
 Several datasets are used: 
@@ -25,7 +23,7 @@ Several datasets are used:
 We build an error corrector model based on the spell check code by **Peter Norvig**.
 
 # Method
-Given a word input, generate many different words by applying some modeifications (Deletion, Insertion, Replacement) to the word, then check to see which ones are known words, then further used these known genrated words to generate new words using the same method, finally we get a set of  candidate words and we pick the one which is the most likely given the context.
+Given a word input, generate many different words by applying some modifications: ```Deletion```, ```Insertion```, and ```Replacement``` to the word, then check to see which ones are known words, then further used these known genrated words to generate new words using the same method, finally we get a set of  candidate words and we pick the one which is the most likely given the context.
 
 I have used the same concept for my adaptation to correct strings of 2 to 5 words.
 
