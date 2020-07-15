@@ -14,9 +14,10 @@ Several datasets are used:
 1. Linggle ngram frequency
 2. GEC model
 
-For this assignment, we had to build an error corrector model based on the spell check code by **Peter Norvig**.
+We build an error corrector model based on the spell check code by **Peter Norvig**.
 
-What got from it is that to correct a word, you can first modify that word, check to see which one of those modifications is a known word then we apply some modifications to those known words to get a set a candidate word and we pick the one that has the highest probability.
+# Method
+Given a word input, generate many different words by applying some modeifications to the word, then check to see which ones are known words, then further used these known genrated words to generate new words using the same method, finally we get a set of  candidate words and we pick the one which is the most likely given the context.
 
 I have used the same concept for my adaptation to correct strings of 2 to 5 words.
 
