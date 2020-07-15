@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="#Introduction">Introduction</a> •
-  <a href="#Tasks">Issues</a> •
+  <a href="#Tasks">Tasks</a> •
   <a href="#Credits">Credits</a> •
   <a href="#Questions">Questions</a>
 </p>
