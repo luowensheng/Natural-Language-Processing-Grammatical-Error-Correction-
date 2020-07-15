@@ -1,4 +1,12 @@
 # Natural Language Processing: Grammatical Error Correction Implementation
+<h1 align="center">Python Header
+</h1>
+<p align="center">
+    <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"></a>
+    <a href="https://github.com/luowensheng/DIP-Image-Restoration-Homomorphic-filtering-/pulse"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
+    <a href="https://github.com/luowensheng"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
+</p>
+
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/luowensheng/Natural-Language-Processing-Grammatical-Error-Correction-/pulse)
