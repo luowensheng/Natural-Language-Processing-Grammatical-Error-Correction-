@@ -8,9 +8,6 @@
 
 </center>
 
-<br>
-<br>
-<br>
 
 # Introduction
 Several datasets are used: 
