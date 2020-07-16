@@ -1,4 +1,9 @@
-<h1 align="center">Natural Language Processing: Grammatical Error Correction Implementation
+<p align="center">
+    <a href="https://github.com/luowensheng"><img src="https://i.ibb.co/0FmPqfm/logo1a.png"></a>
+</p>
+
+<h3 align="center">Natural Language Processing:</h3>
+<h1 align="center">Grammatical Error Correction Implementation
 </h1>
 <p align="center">
     <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"></a>
@@ -13,9 +18,11 @@
   <a href="#Questions">Questions</a>
 </p>
 
-<br>
+___
 
 # Introduction
+[(Back to top :arrow_up_small:)](#Grammatical-Error-Correction-Implementation)
+
 Several datasets are used: 
 1. Linggle ngram frequency
 2. GEC model
@@ -23,11 +30,15 @@ Several datasets are used:
 We build an error corrector model based on the spell check code by **Peter Norvig**.
 
 # Method
+[(Back to top :arrow_up_small:)](#Grammatical-Error-Correction-Implementation)
+
 Given a word input, generate many different words by applying some modifications: ```Deletion```, ```Insertion```, and ```Replacement``` to the word, then check to see which ones are known words, then further used these known genrated words to generate new words using the same method, finally we get a set of  candidate words and we pick the one which is the most likely given the context.
 
 I have used the same concept for my adaptation to correct strings of 2 to 5 words.
 
 # Tasks
+[(Back to top :arrow_up_small:)](#Grammatical-Error-Correction-Implementation)
+
 ### **1. Accept the input string *INPUT* of 2 to 5 words**
 The code accepts a string of two to five words. I have used the input.txt file for this purpose. It contains five sentences:
 ```
@@ -118,7 +129,17 @@ search for more information
 ```
 
 # Credits
+[(Back to top :arrow_up_small:)](#Grammatical-Error-Correction-Implementation)
+
+
 Please refer to Peter Norvig's [website](https://norvig.com/spell-correct.html).
 
 # Questions
+[(Back to top :arrow_up_small:)](#Grammatical-Error-Correction-Implementation)
+
 Submit your questions and bug reports [here](https://github.com/luowensheng/Natural-Language-Processing-Grammatical-Error-Correction-/issues).
+
+<br>
+<p align="center">  
+  <sub>© luowensheng.
+  </a>
